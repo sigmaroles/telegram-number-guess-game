@@ -1,10 +1,6 @@
-import numpy as np
-    
 if __name__=='__main__':
-    #playgame()
     from tbot_game import Game
-    g1 = Game(1151)
-    
+    g1 = Game("someUser")
     while g1.isLive():
         print ("Enter your guess: ", end="")
         g = int(input().strip())

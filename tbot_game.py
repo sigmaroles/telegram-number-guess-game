@@ -7,8 +7,7 @@ import random
 import json
 import atexit
 
-MAX_NUM = 100
-# due to bad design, the actual attempts is MAX_ATT+1. don't even ask..
+MAX_NUM = 100 # due to bad design, the actual attempts is MAX_ATT+1
 MAX_ATT = 5
 
 class Game:
